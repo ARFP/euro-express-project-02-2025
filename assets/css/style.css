@@ -7,5 +7,6 @@ header{
     background-color: #182a52;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
