@@ -1,0 +1,46 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "destination": "Barcelona",
+      "price": "120.5",
+      "time": "18:30:00",
+      "description": "The train to Barcelona is a comfortable journey through the beautiful scenery of southern France before reaching the vibrant Catalan capital. This service offers spacious seats, free Wi-Fi and on-board refreshments."
+    },
+    {
+      "id": 2,
+      "destination": "Copenhagen",
+      "price": "150.75",
+      "time": "20:45:00",
+      "description": "The train to Copenhagen takes you to the Danish capital, passing spectacular scenery and impressive bridges such as the famous Øresund Bridge. With modern facilities and work space for professionals, this trip is ideal for combining comfort and efficiency."
+    },
+    {
+      "id": 3,
+      "destination": "London",
+      "price": "187.55",
+      "time": "07:30:00",
+      "description": "London is accessible via a fast, direct route. This high-speed train crosses the Channel via the Underwater Tunnel, guaranteeing a rapid arrival in the heart of the British capital. With reclining seats and a catering service, the journey is as pleasant as it is efficient."
+    },
+    {
+      "id": 4,
+      "destination": "Naples",
+      "price": "135.25",
+      "time": "09:25:00",
+      "description": "Travel to Naples through Italy's picturesque countryside. This train offers comfortable cabins and a catering service inspired by Italian cuisine. Ideal for those who want to discover the rich history and gastronomy of southern Italy."
+    },
+    {
+      "id": 5,
+      "destination": "Berlin",
+      "price": "110.6",
+      "time": "15:50:00",
+      "description": "The train to Berlin is an excellent option for exploring the German capital. Comfortable and modern, this service offers carriages equipped with electrical outlets, a relaxation area and a dining car offering local specialties. A pleasant journey for history and culture lovers."
+    },
+    {
+      "id": 6,
+      "destination": "Amsterdam",
+      "price": "105.8",
+      "time": "12:10:00",
+      "description": "Amsterdam can be reached via a pleasant, fast route. This train offers a relaxed atmosphere with spacious compartments and quality on-board service. Whether you're visiting the city for its museums, canals or nightlife, this trip is sure to be a great start to your experience."
+    }
+  ]
+}
