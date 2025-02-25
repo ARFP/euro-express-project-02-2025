@@ -10,3 +10,23 @@ header{
     width: 100%;
 }
 
+main{
+    margin: auto;
+    width: 75%;
+}
+
+.galery{
+    display: flex;
+    flex-direction: column
+}
+
+.galery img {
+    width: 40%;
+    height: auto;
+}
+
+.destination {
+    display: flex;
+    align-items: center;
+
+}
