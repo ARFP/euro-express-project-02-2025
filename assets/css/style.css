@@ -1,0 +1,11 @@
+body{
+    margin : 0;
+
+}
+
+header{
+    background-color: #182a52;
+    display: flex;
+    justify-content: center;
+}
+
