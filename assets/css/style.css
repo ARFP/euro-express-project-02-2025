@@ -17,17 +17,22 @@ main{
 
 .galery{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .galery img {
-    width: 40%;
+    width : 100%;
     height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .destination {
     display: flex;
     align-items: center;
+    border : solid 1px red;
 
 }
 
