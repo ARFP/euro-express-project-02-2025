@@ -15,7 +15,9 @@ public class Main {
         trains.add(new Trains(5, "Berlin", 110.6, LocalTime.of(15, 50, 00)));
         trains.add(new Trains(6, "Amsterdam", 105.8, LocalTime.of(12, 10, 00)));
         System.out.println(trains.toString());
-        Reservation resa = new Reservation("toto@gmail.com", "Smith", "Toto", LocalDate.of(1990, 5, 25), LocalDateTime.of(2025, 2, 26, 19, 30, 0), trains.get(0), "Premium");
+        Reservation resa = new Reservation("toto@gmail.com", "Smith", "Toto", LocalDate.of(1990, 5, 25), LocalDateTime.of(2025, 2, 25, 19, 30, 0), trains.get(0), "Premium");
         System.out.println(resa.toString());
+        Reservation resa1 = new Reservation("tata@gmail.com", "Smith", "Toto", LocalDate.of(1990, 5, 25), LocalDateTime.of(2025, 2, 25, 19, 30, 0), trains.get(0), "Premium");
+        System.out.println(resa1.toString());
     }
 }
