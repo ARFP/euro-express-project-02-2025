@@ -54,3 +54,12 @@ footer{
     color: white;
     border-radius: 20%;
 }
+
+a{
+    color: blue;
+}
+
+footer a{
+text-decoration: none;
+color: white;
+}

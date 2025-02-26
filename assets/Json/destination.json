@@ -1,0 +1,52 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "destination": "Barcelone",
+      "prix": "120.5",
+      "heureDepart": "18:30:00",
+      "image": "assets\\img\\barcelone.jpg",
+      "description": "Le train pour Barcelone est un voyage confortable à travers les paysages magnifiques du sud de la France avant d'atteindre la vibrante capitale catalane. Ce service offre des sièges spacieux, une connexion Wi-Fi gratuite et un service de restauration à bord."
+    },
+    {
+      "id": 2,
+      "destination": "Copenhague",
+      "prix": "150.75",
+      "heureDepart": "20:45:00",
+      "image": "assets\\img\\kopenhagen.jpg",
+      "description": "Le train pour Copenhague vous emmène vers la capitale danoise en traversant des paysages spectaculaires et des ponts impressionnants comme le célèbre pont de l'Øresund. Avec des installations modernes et un espace de travail pour les professionnels, ce voyage est idéal pour allier confort et efficacité."
+    },
+    {
+      "id": 3,
+      "destination": "Londres",
+      "prix": "187.55",
+      "heureDepart": "07:30:00",
+      "image": "assets\\img\\londres.jpg",
+      "description": "Londres est accessible via un trajet rapide et direct. Ce train à grande vitesse traverse la Manche via le tunnel sous la mer, garantissant une arrivée rapide en plein cœur de la capitale britannique. Avec des sièges inclinables et un service de restauration, le voyage est aussi plaisant qu'efficace."
+    },
+    {
+      "id": 4,
+      "destination": "Naples",
+      "prix": "135.25",
+      "heureDepart": "09:25:00",
+      "image": "assets\\img\\naples.jpg",
+      "description": "Voyagez vers Naples en traversant les paysages pittoresques d'Italie. Ce train offre des cabines confortables et un service de restauration inspiré de la cuisine italienne. Idéal pour ceux qui veulent découvrir la richesse historique et gastronomique du sud de l'Italie."
+    },
+    {
+      "id": 5,
+      "destination": "Berlin",
+      "prix": "110.6",
+      "heureDepart": "15:50:00",
+      "image": "assets\\img\\berlin.jpg",
+      "description": "Le train pour Berlin est une excellente option pour explorer la capitale allemande. Confortable et moderne, ce service propose des wagons équipés de prises électriques, d'un espace détente et d'une voiture-restaurant offrant des spécialités locales. Un voyage agréable pour les amateurs d'histoire et de culture."
+    },
+    {
+      "id": 6,
+      "destination": "Amsterdam",
+      "prix": "105.8",
+      "heureDepart": "12:10:00",
+      "image": "assets\\img\\amsterdam.jpg",
+      "description": "Amsterdam est accessible via un trajet agréable et rapide. Ce train offre une atmosphère détendue avec des compartiments spacieux et un service à bord de qualité. Que vous visitiez la ville pour ses musées, ses canaux ou sa vie nocturne, ce voyage vous assure un excellent début d'expérience."
+    }
+  ]
+}
