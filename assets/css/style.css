@@ -1,7 +1,7 @@
 body{
     margin : 0;
     padding: 0;
-    background-color: rgb(85, 178, 255);
+    background-color: rgb(186, 212, 238);
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -48,7 +48,7 @@ main h1{
     border : solid 2px #182a52;
     border-radius: 120px;
     margin: 20px;
-    background-color: rgb(221, 165, 61);
+    background-color: white;
 
 }
 
@@ -64,6 +64,31 @@ p{
 
 .blue{
     color: blue;
+}
+
+.bouton{
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    border: 4px double black;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.bouton:hover{
+    background-color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px #506180;
+    color: black;
+    text-align: center;
+    font-size: 22px;
 }
 
 footer{
