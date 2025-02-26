@@ -23,6 +23,7 @@ public class Reservation {
         this.dateNaissance = dateNaissance;
         this.dateReservation = dateReservation;
         if (dateReservation.isAfter(LocalDateTime.of(LocalDate.now(), train.getDepart()))) {
+            this.dateReservation = null;
             throw new IllegalArgumentException("La date et l'heure de réservation ne peut pas être postérieur à la date et l'heure de départ du train.");
         }
         this.train = train;
@@ -67,7 +68,7 @@ public class Reservation {
     }
 
     public String toString() {
-        return "Reservation [idReservation=" + idReservation + ", email=" + email + ", nom=" + nom + ", prenom=" + prenom + ", dateNaissance=" + dateNaissance + ", dateReservation=" + dateReservation + ", prix=" + prix + ", classe=" + classe + "]";
+        return "Reservation [idReservation=" + idReservation + ", email=" + email + ", nom=" + nom + ", prenom=" + prenom + ", dateNaissance=" + dateNaissance + ", dateReservation=" + dateReservation + ", prix=" + prix + ", classe=" + classe + ", train=" + train + "]";
     }   
 
     public double setPrice(Trains train) {
