@@ -1,6 +1,13 @@
 body{
     margin : 0;
+    padding: 0;
+    background-color: rgb(85, 178, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+
+a{
+    text-decoration: none;
 }
 
 header{
@@ -12,7 +19,12 @@ header{
 
 main{
     margin: auto;
-    width: 75%;
+    width: 60%;
+}
+
+main h1{
+    margin-top: 50px;
+    text-align: center;
 }
 
 .galery{
@@ -23,19 +35,43 @@ main{
 
 .galery img {
     width : 100%;
-    height: auto;
+    height: 20em;
     overflow: hidden;
-    object-fit: cover;
-    border-radius: 30px;
+    border-radius: 120px;
 }
 
 .destination {
+    width: 90%;
+    height: auto;
     display: flex;
     align-items: center;
-    border : solid 1px red;
+    border : solid 2px #182a52;
+    border-radius: 120px;
+    margin: 20px;
+    background-color: rgb(221, 165, 61);
 
+}
+
+.description{
+    width: 100%;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
 }
 
 .blue{
     color: blue;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #182a52;
+    color: white;
+    
+
 }
