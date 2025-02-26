@@ -38,8 +38,8 @@ CREATE TABLE `classe` (
 --
 
 INSERT INTO `classe` (`id`, `nomClasse`, `augmentation`) VALUES
-(1, 'eco', 0),
-(2, 'Premium', 20),
+(1, 'Eco', 0),
+(2, 'Premium', 25),
 (3, 'Business', 50);
 
 -- --------------------------------------------------------
@@ -61,12 +61,12 @@ CREATE TABLE `destinations` (
 --
 
 INSERT INTO `destinations` (`id`, `ville`, `prix`, `heuredep`, `description`) VALUES
-(1, 'Barcelone\r\n', 120.00, '18:30:00', 'Le train pour Barcelone est un voyage confortable à travers les paysages magnifiques du sud de la France avant d\'atteindre la vibrante capitale catalane. Ce service offre des sièges spacieux, une connexion Wi-Fi gratuite et un service de restauration à bord.\r\n'),
-(2, 'Copenhague\r\n', 150.00, '20:45:00', 'Le train pour Copenhague vous emmène vers la capitale danoise en traversant des paysages spectaculaires et des ponts impressionnants comme le célèbre pont de l’Øresund. Avec des installations modernes et un espace de travail pour les professionnels, ce voyage est idéal pour allier confort et efficacité.\r\n'),
-(3, 'Londres\r\n', 187.00, '07:30:00', 'Londres est accessible via un trajet rapide et direct. Ce train à grande vitesse traverse la Manche via le tunnel sous la mer, garantissant une arrivée rapide en plein cœur de la capitale britannique. Avec des sièges inclinables et un service de restauration, le voyage est aussi plaisant qu’efficace.\r\n'),
-(4, 'Naples\r\n', 135.00, '09:25:00', 'Voyagez vers Naples en traversant les paysages pittoresques d’Italie. Ce train offre des cabines confortables et un service de restauration inspiré de la cuisine italienne. Idéal pour ceux qui veulent découvrir la richesse historique et gastronomique du sud de l’Italie.\r\n'),
-(5, 'Berlin\r\n', 110.00, '15:50:00', 'Le train pour Berlin est une excellente option pour explorer la capitale allemande. Confortable et moderne, ce service propose des wagons équipés de prises électriques, d\'un espace détente et d\'une voiture-restaurant offrant des spécialités locales. Un voyage agréable pour les amateurs d’histoire et de culture.\r\n'),
-(6, 'Amsterdam\r\n', 105.00, '12:10:00', 'Amsterdam est accessible via un trajet agréable et rapide. Ce train offre une atmosphère détendue avec des compartiments spacieux et un service à bord de qualité. Que vous visitiez la ville pour ses musées, ses canaux ou sa vie nocturne, ce voyage vous assure un excellent début d’expérience.\r\n');
+(1, 'Barcelone\r\n', 120.50, '18:30:00', 'Le train pour Barcelone est un voyage confortable à travers les paysages magnifiques du sud de la France avant d\'atteindre la vibrante capitale catalane. Ce service offre des sièges spacieux, une connexion Wi-Fi gratuite et un service de restauration à bord.\r\n'),
+(2, 'Copenhague\r\n', 150.75, '20:45:00', 'Le train pour Copenhague vous emmène vers la capitale danoise en traversant des paysages spectaculaires et des ponts impressionnants comme le célèbre pont de l’Øresund. Avec des installations modernes et un espace de travail pour les professionnels, ce voyage est idéal pour allier confort et efficacité.\r\n'),
+(3, 'Londres\r\n', 187.55, '07:30:00', 'Londres est accessible via un trajet rapide et direct. Ce train à grande vitesse traverse la Manche via le tunnel sous la mer, garantissant une arrivée rapide en plein cœur de la capitale britannique. Avec des sièges inclinables et un service de restauration, le voyage est aussi plaisant qu’efficace.\r\n'),
+(4, 'Naples\r\n', 135.25, '09:25:00', 'Voyagez vers Naples en traversant les paysages pittoresques d’Italie. Ce train offre des cabines confortables et un service de restauration inspiré de la cuisine italienne. Idéal pour ceux qui veulent découvrir la richesse historique et gastronomique du sud de l’Italie.\r\n'),
+(5, 'Berlin\r\n', 110.60, '15:50:00', 'Le train pour Berlin est une excellente option pour explorer la capitale allemande. Confortable et moderne, ce service propose des wagons équipés de prises électriques, d\'un espace détente et d\'une voiture-restaurant offrant des spécialités locales. Un voyage agréable pour les amateurs d’histoire et de culture.\r\n'),
+(6, 'Amsterdam\r\n', 105.80, '12:10:00', 'Amsterdam est accessible via un trajet agréable et rapide. Ce train offre une atmosphère détendue avec des compartiments spacieux et un service à bord de qualité. Que vous visitiez la ville pour ses musées, ses canaux ou sa vie nocturne, ce voyage vous assure un excellent début d’expérience.\r\n');
 
 -- --------------------------------------------------------
 
