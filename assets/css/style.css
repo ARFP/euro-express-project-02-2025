@@ -99,3 +99,101 @@ footer{
     color: white;
     
 }
+
+footer a{
+    color: white;
+}
+
+
+
+@media screen and (min-width: 997px) and (max-width: 1563px){
+    
+    main{
+        width: 100%;
+    }
+
+    .galery img{
+        height: 12em;
+    }
+
+    h2{
+        font-size: clamp(5px, 2em, 2rem);
+    }
+    
+    .destination{
+        font-size: clamp(5px, 2em, 2rem);
+    }
+
+    footer{
+        font-size: clamp(4px, 1em, 1rem);
+    }
+    
+}
+
+
+
+/* Media query pour tablette */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    main{
+        margin: auto;
+        width: 80%;
+    }
+
+    .description{
+        width: 85%;
+    }
+
+    form{
+        justify-items: center;
+    }
+    
+    .destination{
+        flex-direction: column;
+    }
+
+    footer{
+        font-size: clamp(4px, 1em, 1rem);
+    }
+}
+
+
+
+
+
+
+/* Media query pour téléphone */
+@media only screen and (max-width: 767px) {
+    main{
+        margin: auto;
+        width: 100%;
+    }
+
+    .destination{
+        font-size: clamp(5px, 2em, 2rem);
+    }
+
+    h2{
+        font-size: clamp(5px, 2em, 2rem);
+    }
+
+    .galery img{
+        height: 11em;
+    }
+
+    .description{
+        width: 85%;
+    }
+
+    form{
+        justify-items: center;
+    }
+    
+    .destination{
+        flex-direction: column;
+    }
+
+    footer{
+        font-size: clamp(4px, 1em, 1rem);
+    }
+}
