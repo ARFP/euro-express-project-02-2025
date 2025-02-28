@@ -12,9 +12,10 @@
         <img src="assets/img/EuropeExpress.jpg" alt="logo de EuropeExpress">
     </header>
     <main>
-        <h2>Berlin</h2>
-        <h2>Départ à 15h50</h2>
-        <form>
+        <h2 id="booking-destination"></h2>
+        <h2>Départ à <span id="booking-hour"></span></h2>
+        <div id="message"></div> <!-- Ajout d'un message pour dire que la réservation a bien été effectué -->
+        <form id="bookingForm">
             <label for="nom">Nom</label>
             <input type="text" id="nom" name="nom" required>
 
@@ -39,8 +40,8 @@
             </select>
             
             <h3>Prix de base</h3>
-            <h3>110.60 €</h3>
-            <button class="bouton">Réservation</button>
+            <h3><span id="booking-prix"></span> €</h3>
+            <input type="submit" value="Réserver" class="bouton"/>
             <a href="index.html">Retour à l'accueil</a>
     
         </form>
@@ -51,5 +52,7 @@
     <footer>
         <h3>Copyright 2025 - ©Equipe Rouge (<a href="https://github.com/Caroline1609">Caroline</a>, <a href="https://github.com/HL-Dev26">Ludovic</a>, <a href="https://github.com/f-gehin-crm">Fréderic</a>, <a href="https://github.com/Neihren">Jessy</a>) - ABC DEV</h3>
     </footer>
+    
+    <script src="./assets/js/booking.js"></script>
 </body>
 </html>
